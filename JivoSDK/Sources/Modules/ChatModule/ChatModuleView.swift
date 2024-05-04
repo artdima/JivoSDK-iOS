@@ -274,7 +274,9 @@ final class JVChatModuleViewController
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         pipeline.notify(intent: .willAppear)
-        pipeline.notify(intent: .sendMessage(text: "Главное меню"))
+        DispatchQueue.main.jv_delayed(seconds: 2) { [weak self] in
+            self?.pipeline.notify(intent: .sendMessage(text: "Главное меню"))
+        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
