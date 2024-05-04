@@ -237,7 +237,7 @@ fileprivate let f_colors: [JVDesignColorBrightness: [JVDesignColorAlias: UIColor
         .darkBackground: UIColor(jv_hex: 0x1C1B17),
         .white: UIColor.white,
         .black: UIColor.black,
-        .accentGreen: UIColor(jv_hex: 0x12A730),
+        .accentGreen: UIColor(jv_hex: 0x0079C1),
         .accentBlue: UIColor(jv_hex: 0x086BCD),
         .accentGraphite: UIColor(jv_hex: 0x445669),
         .background: UIColor(jv_hex: 0xF7F9FC),
@@ -253,7 +253,7 @@ fileprivate let f_colors: [JVDesignColorBrightness: [JVDesignColorAlias: UIColor
         .reddishPink: UIColor(jv_hex: 0xFF2D55),
         .orangeRed: UIColor(jv_hex: 0xFF3B30),
         .greenLight: UIColor(jv_hex: 0x4CD964),
-        .greenJivo: UIColor(jv_hex: 0x00BC31),
+        .greenJivo: UIColor(jv_hex: 0x0079C1),
         .greenSber: UIColor(jv_hex: 0x21A038),
         .blueVk: UIColor(jv_hex: 0x0077FF),
         .skyBlue: UIColor(jv_hex: 0x5AC8FA),
@@ -267,16 +267,16 @@ fileprivate let f_colors: [JVDesignColorBrightness: [JVDesignColorAlias: UIColor
         .unknown4: UIColor(jv_hex: 0xFAFAFB),
         .unknown5: UIColor(jv_hex: 0xA4B4BC),
         .color_ff2f0e: UIColor(jv_hex: 0xFF2F0E),
-        .color_00bc31: UIColor(jv_hex: 0x00BC31)
+        .color_00bc31: UIColor(jv_hex: 0x0079C1)
     ],
     .dark: [
         .white: UIColor.white,
         .black: UIColor.black,
-        .accentGreen: UIColor(jv_hex: 0x12A730),
+        .accentGreen: UIColor(jv_hex: 0x0079C1),
         .accentBlue: UIColor(jv_hex: 0x086BCD),
         .accentGraphite: UIColor(jv_hex: 0x445669),
         .orangeRed: UIColor(jv_hex: 0xFF3B30),
-        .greenJivo: UIColor(jv_hex: 0x008A0B),
+        .greenJivo: UIColor(jv_hex: 0x0079C1),
         .greenSber: UIColor(jv_hex: 0x21A038),
         .blueVk: UIColor(jv_hex: 0x0077FF),
         .sunflowerYellow: UIColor(jv_hex: 0xFFCC00),
@@ -300,6 +300,6 @@ fileprivate let f_colors: [JVDesignColorBrightness: [JVDesignColorAlias: UIColor
         .unknown4: UIColor(jv_hex: 0xFAFAFB),
         .unknown5: UIColor(jv_hex: 0xA4B4BC),
         .color_ff2f0e: UIColor(jv_hex: 0xFF2F0E),
-        .color_00bc31: UIColor(jv_hex: 0x00BC31)
+        .color_00bc31: UIColor(jv_hex: 0x0079C1)
     ]
 ]
